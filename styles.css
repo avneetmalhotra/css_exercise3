@@ -1,5 +1,6 @@
 body{
 	font-family: Tahoma, Sans-serif;
+  font-size: 13px;
 }
 
 header{
@@ -7,14 +8,16 @@ header{
   position: relative;
 }
 
-header div{
-  display: inline;
+header .contact{
   position: absolute;
   right: 0px;
   bottom: 8px;
-  font-size: 13px;
-}
+  display: inline;
+} 
 
+header .skype{
+  padding-left: 16px;
+}
 header a{
   text-decoration: none;
   color: #045198;
@@ -43,28 +46,23 @@ form{
   text-align: left;
 }
 
-.form_table .gender_row {
-  font-size: 13px;
-}
-
 .form_table .label{
   text-align: right;
   font-size: 14px;
   padding-right: 20px;
 }
 
-input[type="text"], input[type="password"], input[type="email"], textarea{
+.text_fields, textarea{
   border: 1px solid #b9b9b9;
 }
 
-input[type="text"], input[type="password"], input[type="email"]{
-    width: 360px;
-    height: 25px;
+.text_field_dimension{
+  width: 360px;
+  height: 25px;
 }
 
 .form_table select{
   width: 110px;
-  font-size: 13px;
   color: #6f6f6f;
 }
 
