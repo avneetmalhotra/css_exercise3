@@ -56,6 +56,10 @@ form{
   border: 1px solid #b9b9b9;
 }
 
+input:focus, textarea:focus{
+  background-color: yellow;
+}
+
 .text_field_dimension{
   width: 360px;
   height: 25px;
