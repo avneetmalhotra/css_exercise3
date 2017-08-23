@@ -15,8 +15,8 @@ header .contact{
   display: inline;
 } 
 
-header .skype{
-  padding-left: 16px;
+header .mail{
+  padding-right: 16px;
 }
 header a{
   text-decoration: none;
@@ -40,7 +40,7 @@ form{
   display: block;
 }
 
-.form_table th{
+.form_table caption{
   font-size: 18px;
   color: #2c286d;
   text-align: left;
